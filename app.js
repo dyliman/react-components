@@ -1,7 +1,15 @@
+var Kale = () => (
+  <li>Kale</li>
+);
+
+var Cucumber = () => (
+  <li>Cucumber</li>
+);
+
 var GroceryList = () => (
   <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
+  <Kale />
+  <Cucumber />
   </ul>
 );
 
